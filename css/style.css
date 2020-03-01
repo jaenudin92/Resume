@@ -1,0 +1,226 @@
+/* style */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+
+/* Navbar */
+
+nav.green {
+    background-color: #007a7a;
+}
+
+.bg-primary {
+    background-color: transparent !important;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    color: #DFDFDF !important;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.navbar-nav a:hover {
+    background-color: #007a7a;
+    border-radius: 4px;
+    width: max-content;
+}
+
+nav.green .navbar-nav a:hover {
+    background-color: #2D2D2D;
+    border-radius: 4px;
+    width: max-content;
+}
+
+.navbar-brand:hover,
+.navbar a:focus {
+    color: #009494 !important;
+}
+
+nav.green .navbar-brand:hover,
+nav.green .navbar a:focus {
+    color: #2D2D2D !important;
+}
+
+.navbar-nav .nav-link {
+    color: #DFDFDF !important;
+    font-size: 14px;
+}
+
+.navbar-toggler {
+    border: 1px solid #DFDFDF !important;
+}
+
+
+/* Jumbotron */
+
+.jumbotron {
+    background-image: url('../img/jumbotron.png');
+    height: 620px;
+    color: #DFDFDF;
+}
+
+.jumbotron img {
+    margin-top: 80px;
+    width: 180px;
+}
+
+.jumbotron h1 {
+    font-size: 38px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.jumbotron p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: -8px;
+    letter-spacing: 1px;
+}
+
+.jumbotron a {
+    display: inline-block;
+    background-color: #009494;
+    border: none;
+    padding: 6px;
+    width: 140px;
+    margin: 5px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.05);
+    color: #DFDFDF;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+button:hover,
+.btns:hover,
+.jumbotron a:hover,
+.jumbotron a:focus {
+    background-color: #007a7a;
+}
+
+.about .card {
+    margin-top: -120px;
+}
+
+h4,
+.card-body table tr th {
+    color: #009494;
+    font-weight: bold;
+}
+
+.card-body table tr td,
+.card-body table tr th {
+    padding: 4px;
+}
+
+.card-body table tr td,
+.card-body table tr th {
+    vertical-align: top;
+}
+
+
+/* Skills */
+
+.skills,
+.experience,
+.education {
+    margin: 120px 0px;
+}
+
+.skills h5 {
+    color: #009494;
+}
+
+.progress-bar {
+    background-color: #009494;
+}
+
+.progress {
+    height: 6px;
+}
+
+
+/* experience */
+
+.experience .card,
+.education .card {
+    height: 150px;
+}
+
+.experience .card-left,
+.education .card-left {
+    background-color: #009494;
+    color: #DFDFDF;
+}
+
+.experience .card-left h5,
+.education .card-left h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.experience .card-left p,
+.education .card-left p {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.experience .card-right h5,
+.education .card-right h5,
+.contact h5 {
+    color: #009494;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button:focus,
+.btns:focus {
+    outline: none;
+    background-color: #007a7a;
+}
+
+.btns {
+    background-color: #009494;
+    border: none;
+    padding: 6px;
+    width: 80px;
+    margin: 5px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.7);
+    color: #DFDFDF;
+    font-size: 12px;
+}
+
+@keyframes fade {
+    from {
+        opacity: 1.0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1.0;
+    }
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: 1.0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1.0;
+    }
+}
+
+.blink {
+    animation: fade 1000ms infinite;
+    -webkit-animation: fade 1000ms infinite;
+}
